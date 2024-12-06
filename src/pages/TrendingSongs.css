@@ -1,0 +1,51 @@
+.trending-songs-container {
+    padding: 20px;
+    background-color: #111;
+  }
+  
+  h2 {
+    font-size: 24px;
+    margin-bottom: 20px;
+  }
+  
+  .songs-table {
+    width: 100%;
+    border-collapse: collapse;
+  }
+  
+  .songs-table th, .songs-table td {
+    padding: 12px;
+    text-align: center;
+    border: 1px solid #ddd;
+  }
+  
+  .songs-table th {
+    border: none;
+    color: white;
+  }
+  
+  .songs-table td {
+    background-color: #333;
+    border: 8px solid #222;
+    color: white;
+  }
+  
+  .favorite-btn {
+    color: white;
+    background-color: #222;
+    border: 1px solid #ee10b0;
+    padding: 5px 8px;
+    cursor: pointer;
+    border-radius: 5px;
+  cursor: pointer;
+  }
+  
+  
+  .favorite-btn:hover {
+    color: #e91e63; 
+  }
+  
+.now{
+  color: #ddd;
+}
+  

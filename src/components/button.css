@@ -1,0 +1,26 @@
+.default-button {
+    margin-right: 20px;
+    background-color: #EE10B0;
+    color: #fff;
+    padding: 10px 60px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+  }
+  
+  .default-button:hover {
+    background-color: #f05ec7;
+  }
+  
+  .create-button {
+    margin-right: 20px;
+    background-color: transparent;
+    color: #0D79B9;
+    border: 2px solid #0D79B9;
+  }
+
+  .create-button:hover{
+    background-color: #0D79B9;
+    color: #fff;
+  }

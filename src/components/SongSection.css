@@ -1,0 +1,78 @@
+.song-section {
+    background-color: #121212;
+    padding: 20px;
+    color: white;
+  }
+  
+  .song-section h2 {
+    font-size: 2rem;
+    color: white;
+    margin-bottom: 20px;
+  }
+  
+  .song-section h2 span {
+    color: #ee10b0;
+  }
+  .songs-container {
+    display: flex;
+    gap: 35px;
+    flex-wrap: wrap;
+  }
+  
+  .song-card {
+    background-color: #1f1f1f;
+    width: 290px;
+    border-radius: 10px;
+    padding: 15px;
+    text-align: center;
+    flex-shrink: 0;
+  }
+  
+  .song-card img {
+    width: 100%;
+    border-radius: 10px;
+    margin-bottom: 10px;
+  }
+  .song-card h4 {
+    font-size: 1.1rem;
+    color: white;
+    text-align: left;
+    margin-bottom: 15px;
+  }
+  .song-card .player{
+    display: flex;
+    justify-content: space-between;
+  }
+  .song-card p {
+    font-size: 0.8rem;
+    color: #9e9e9e;
+  }
+  
+  .view-all button {
+    background-color: transparent;
+    color: #ee10b0;
+    border: 2px solid #ee10b0;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .view-all button:hover {
+    background-color: #ee10b0;
+    color: white;
+    border: none;
+  }
+
+  .view-all {
+    text-align: center;
+    margin-top: 20px;
+  }
+  
+  
+  .stop-btn, .play-btn {
+    font-size: 5px;  
+    border-radius: 50%;
+    border: none;
+    cursor: pointer;
+  }
+  
